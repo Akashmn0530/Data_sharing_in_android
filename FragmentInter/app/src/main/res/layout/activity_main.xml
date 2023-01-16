@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/design_default_color_error"
+    tools:context=".MainActivity">
+
+
+    <FrameLayout
+        android:id="@+id/frame2"
+        android:layout_width="407dp"
+        android:layout_height="166dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="310dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/frame3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frame1"
+        app:layout_constraintVertical_bias="0.471"
+        tools:ignore="MissingConstraints">
+
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/activitytxt1"
+        android:layout_width="187dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="213dp"
+        android:layout_marginBottom="82dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/activitytxt2"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="622dp" />
+
+    <TextView
+        android:id="@+id/activitytxt2"
+        android:layout_width="184dp"
+        android:layout_height="42dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="78dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="251dp"
+        tools:layout_editor_absoluteY="622dp" />
+
+    <Button
+        android:id="@+id/switchbtn"
+        android:layout_width="251dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="11dp"
+        android:text="Display and pass to 2"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="159dp"
+        tools:layout_editor_absoluteY="667dp" />
+
+    <FrameLayout
+        android:id="@+id/frame1"
+        android:layout_width="414dp"
+        android:layout_height="191dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="518dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="3dp">
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/frame3"
+        android:layout_width="407dp"
+        android:layout_height="152dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="129dp"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="430dp">
+
+    </FrameLayout>
+
+</RelativeLayout>
